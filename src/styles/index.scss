@@ -1,0 +1,12 @@
+@use 'styles/colors' as *;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Space Mono', monospace;
+	background-color: $color-zircon;
+}
