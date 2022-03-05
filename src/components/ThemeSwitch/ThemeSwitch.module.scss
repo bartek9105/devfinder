@@ -1,5 +1,19 @@
 @use 'styles/colors' as *;
 
+.container {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.hint {
+	font-size: 13px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	color: $color-kashmir-blue;
+}
+
 .sunIcon {
 	color: $color-kashmir-blue;
 }

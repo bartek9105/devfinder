@@ -1,14 +1,8 @@
 import './styles/index.scss'
-import DevFinderLogo from './components/DevFinderLogo'
-import ThemeSwitch from 'components/ThemeSwitch'
+import Navbar from 'components/Navbar'
 
 function App() {
-	return (
-		<>
-			<DevFinderLogo />
-			<ThemeSwitch />
-		</>
-	)
+	return <Navbar />
 }
 
 export default App
