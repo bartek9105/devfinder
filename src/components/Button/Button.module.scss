@@ -1,0 +1,16 @@
+@use 'styles/colors' as *;
+
+.button {
+	padding: 12px 16px;
+	color: $color-white;
+	background-color: $color-azure-radiance;
+	border: 0;
+	border-radius: 10px;
+	font-weight: 900;
+	font-size: 14px;
+	transition: background-color 0.2s ease-in-out;
+	cursor: pointer;
+	&:hover {
+		background-color: $color-malibu;
+	}
+}
